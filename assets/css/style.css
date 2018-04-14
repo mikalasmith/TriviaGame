@@ -1,0 +1,21 @@
+body {
+  background-image: url(/Users/mikalasmith/Desktop/homeworkfive/TriviaGame/assets/images/rugrats.jpeg);
+  text-align: center;
+}
+
+ .jumbotron {
+   font-family: 'Gloria Hallelujah', cursive;
+   
+ }
+
+ .page-header {
+  font-family: 'Gloria Hallelujah', cursive;
+ }
+
+ #timeleft {
+  font-family: 'Gloria Hallelujah', cursive;
+ }
+
+ #holdQuestions {
+  font-family: 'Gloria Hallelujah', cursive;
+ }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"> </script>
+
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>The Rugrats Trivia Game!</h1>
+        </div>
+
+        <!-- Timer div -->
+
+
+        <container id="holdQuestions">
+
+            <div id="timeleft">
+                Time left =
+                <span id="timer"></span>
+            </div>
+            
+            <form name="trivia">
+                <h2>How are Tommy and Angelica related to each other?</h2>
+                 <div id="q1"> 
+                <input type="radio" name="1" value="a"> They're cousins
+                <input type="radio" name="1" value="b"> They're siblings
+                <input type="radio" name="1" value="c"> Tommy is Angelica's nephew
+                <input type="radio" name="1" value="d"> They're step-siblings
+                </div> 
+
+                <h2>What show did Susie's dad create?</h2>
+                <div id="q2">
+                <input type="radio" name="2" value="a"> The Gummie Bears
+                <input type="radio" name="2" value="b"> The Dummie Bears
+                <input type="radio" name="2" value="c"> Chocolate-tastic!
+                <input type="radio" name="2" value="d"> The Rugrats
+                </div>
+
+                <h2>What was the name of Cynthia's doll?</h2>
+                <div id="q3">
+                <input type="radio" name="3" value="a"> Jenny
+                <input type="radio" name="3" value="b"> Lisa
+                <input type="radio" name="3" value="c"> Cynthia
+                <input type="radio" name="3" value="d"> Christina
+                </div>
+
+                <h2>What is Tommy's last name?</h2>
+                <div id="q4">
+                <input type="radio" name="4" value="a"> Pickles
+                <input type="radio" name="4" value="b"> Beans
+                <input type="radio" name="4" value="c"> Dollars
+                <input type="radio" name="4" value="d"> Smith
+                </div>
+
+                <h2>What are the names of the twins in the series?</h2>
+                <div id="q5">
+                <input type="radio" name="5" value="a"> Stacy and David
+                <input type="radio" name="5" value="b"> Bill and Lil
+                <input type="radio" name="5" value="c"> Phil and Lil
+                <input type="radio" name="5" value="d"> Sam and Pam
+                </div>
+            </form>
+
+            <br>
+            <button type="button" class="btn btn-default btn-lg">Submit Answer</button>
+
+       
+        </container>
+
+    
+
+    <!-- link to jQuery CDN
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <!-- link to external JS file -->
+    <!-- <script type="text/javascript" src="assets/javascript/app.js"> </script> -->
+</body>
+
+</html>
