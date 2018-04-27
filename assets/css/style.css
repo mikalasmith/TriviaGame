@@ -1,6 +1,7 @@
 body {
-  background-image: url(/Users/mikalasmith/Desktop/homeworkfive/TriviaGame/assets/images/rugrats.jpeg);
+  background-image: url("../images/rugrats.jpeg");
   text-align: center;
+  color: black;
 }
 
  .jumbotron {
@@ -19,3 +20,4 @@ body {
  #holdQuestions {
   font-family: 'Gloria Hallelujah', cursive;
  }
+
